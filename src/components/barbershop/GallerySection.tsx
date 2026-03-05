@@ -4,12 +4,36 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const cuts = [
-  { name: "Fade Clássico", desc: "Degradê suave com acabamento impecável", img: "/fotos/corte1.jpg" },
-  { name: "Pompadour Moderno", desc: "Volume e estilo para quem quer se destacar", img: "/fotos/corte2.jpg" },
-  { name: "Buzz Cut Premium", desc: "Corte militar com detalhes precisos", img: "/fotos/corte3.jpg" },
-  { name: "Undercut Texturizado", desc: "Contraste marcante com textura natural", img: "/fotos/corte4.jpg" },
-  { name: "Navalhado Artístico", desc: "Detalhes artísticos com navalha", img: "/fotos/corte5.jpg" },
-  { name: "Degradê Alto", desc: "Transição alta com topo texturizado", img: "/fotos/corte6.jpg" },
+  {
+    name: "Freestyle Design",
+    desc: "Corte com degradê moderno e desenhos personalizados feitos na navalha para um estilo único.",
+    img: "/fotos/desenho.jpg"
+  },
+  {
+    name: "Fade Clássico",
+    desc: "Degradê suave nas laterais com topo alinhado, um dos cortes mais pedidos nas barbearias.",
+    img: "/fotos/corte2.jpg"
+  },
+  {
+    name: "Platinado Moderno",
+    desc: "Corte estilizado com descoloração platinada no topo, ideal para quem quer destaque.",
+    img: "/fotos/corte3.jpg"
+  },
+  {
+    name: "Corte Social Clássico",
+    desc: "Estilo tradicional e elegante, perfeito para trabalho, eventos e visual sofisticado.",
+    img: "/fotos/corte4.jpg"
+  },
+  {
+    name: "Low Fade Texturizado",
+    desc: "Degradê baixo com topo texturizado que garante um visual moderno e natural.",
+    img: "/fotos/corte5.jpg"
+  },
+  {
+    name: "Mid Fade Jovem",
+    desc: "Degradê médio com acabamento preciso, muito popular entre clientes jovens.",
+    img: "/fotos/corte6.jpg"
+  }
 ];
 
 export default function GallerySection() {
