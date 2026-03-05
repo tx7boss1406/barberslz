@@ -4,12 +4,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const cuts = [
-  { name: "Fade Clássico", desc: "Degradê suave com acabamento impecável", img: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=500&fit=crop" },
-  { name: "Pompadour Moderno", desc: "Volume e estilo para quem quer se destacar", img: "https://images.unsplash.com/photo-1503951914875-452f5fce95e5?w=400&h=500&fit=crop" },
-  { name: "Buzz Cut Premium", desc: "Corte militar com detalhes precisos", img: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=400&h=500&fit=crop" },
-  { name: "Undercut Texturizado", desc: "Contraste marcante com textura natural", img: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=500&fit=crop" },
-  { name: "Navalhado Artístico", desc: "Detalhes artísticos com navalha", img: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=500&fit=crop" },
-  { name: "Degradê Alto", desc: "Transição alta com topo texturizado", img: "https://images.unsplash.com/photo-1593702288056-f5834cfb0203?w=400&h=500&fit=crop" },
+  { name: "Fade Clássico", desc: "Degradê suave com acabamento impecável", img: "/fotos/corte1.jpg" },
+  { name: "Pompadour Moderno", desc: "Volume e estilo para quem quer se destacar", img: "/fotos/corte2.jpg" },
+  { name: "Buzz Cut Premium", desc: "Corte militar com detalhes precisos", img: "/fotos/corte3.jpg" },
+  { name: "Undercut Texturizado", desc: "Contraste marcante com textura natural", img: "/fotos/corte4.jpg" },
+  { name: "Navalhado Artístico", desc: "Detalhes artísticos com navalha", img: "/fotos/corte5.jpg" },
+  { name: "Degradê Alto", desc: "Transição alta com topo texturizado", img: "/fotos/corte6.jpg" },
 ];
 
 export default function GallerySection() {
