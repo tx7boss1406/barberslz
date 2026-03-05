@@ -7,17 +7,12 @@ const cuts = [
   {
     name: "Freestyle Design",
     desc: "Corte com degradê moderno e desenhos personalizados feitos na navalha para um estilo único.",
-    img: "/fotos/desenho.jpg"
+    img: "/fotos/desenhoo.jpg"
   },
   {
     name: "Fade Clássico",
     desc: "Degradê suave nas laterais com topo alinhado, um dos cortes mais pedidos nas barbearias.",
     img: "/fotos/corte2.jpg"
-  },
-  {
-    name: "Platinado Moderno",
-    desc: "Corte estilizado com descoloração platinada no topo, ideal para quem quer destaque.",
-    img: "/fotos/corte3.jpg"
   },
   {
     name: "Corte Social Clássico",
